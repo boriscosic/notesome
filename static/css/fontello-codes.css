@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+.icon-th-list:before { content: '\2630'; } /* '☰' */
+.icon-heart-empty:before { content: '\2661'; } /* '♡' */
+.icon-heart:before { content: '\2665'; } /* '♥' */
+.icon-th:before { content: '\268f'; } /* '⚏' */
+.icon-cog:before { content: '\2699'; } /* '⚙' */
+.icon-photo:before { content: '\e063'; } /* '' */
+.icon-th-large:before { content: '\e708'; } /* '' */
+.icon-tag:before { content: '\e70c'; } /* '' */
+.icon-list:before { content: '\e782'; } /* '' */
+.icon-twitter-bird:before { content: '\f303'; } /* '' */
+.icon-user:before { content: '👤'; } /* '\1f464' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */
+.icon-link:before { content: '🔗'; } /* '\1f517' */

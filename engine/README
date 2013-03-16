@@ -1,0 +1,43 @@
+URL Icons can be obtained here
+http://www.google.com/s2/favicons?domain=ajaxian.com
+
+Majority of tools from here come from:
+https://github.com/mdoege/NewsFeed-single/tree/d26605a4a879cfbaa42c588b3fb5ebc85a2a0dd5
+
+Feedparser
+https://code.google.com/p/feedparser/downloads/list
+
+Properties of a feed
+
+feed
+status
+updated
+updated_parsed
+encoding
+bozo
+headers
+etag
+href
+version
+entries
+namespaces
+
+feed['feed'] =>
+
+selecting feeds from database
+info
+updated
+subtitle
+updated_parsed
+links
+title
+generator
+generator_detail
+feedburner_info
+subtitle_detail
+language
+title_detail
+info_detail
+link
+sy_updateperiod
+sy_updatefrequency

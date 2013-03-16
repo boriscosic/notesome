@@ -1,0 +1,175 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "list"
+      ],
+      "code": 9776,
+      "from": 9776,
+      "uid": "84d19120538dd143b9cf5433f2417f48",
+      "css": "th-list",
+      "orig_css": "th-list",
+      "orig_code": 9776,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "heart"
+      ],
+      "code": 9825,
+      "from": 9825,
+      "uid": "1bcc6c6369c3d475fa27115f806ff2ad",
+      "css": "heart-empty",
+      "orig_css": "heart-empty",
+      "orig_code": 9825,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "heart"
+      ],
+      "code": 9829,
+      "from": 9829,
+      "uid": "2a3cd95de2621bd87479396f236fd2a4",
+      "css": "heart",
+      "orig_css": "heart",
+      "orig_code": 9829,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "image",
+        "list",
+        "thumbnails"
+      ],
+      "code": 9871,
+      "from": 9871,
+      "uid": "9e22a8a67fe3b88cdd5e4253c85debdb",
+      "css": "th",
+      "orig_css": "th",
+      "orig_code": 9871,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "settings",
+        "cog",
+        "gear"
+      ],
+      "code": 9881,
+      "from": 9881,
+      "uid": "26aba7edd46944209b4961670675a813",
+      "css": "cog",
+      "orig_css": "cog",
+      "orig_code": 9881,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "photo"
+      ],
+      "code": 57443,
+      "uid": "745f28cc6b06e5d131f6d650377b6cf5",
+      "css": "photo",
+      "orig_css": "photo",
+      "orig_code": 57443,
+      "src": "elusive",
+      "from": 57443
+    },
+    {
+      "search": [
+        "image",
+        "list",
+        "thumbnails"
+      ],
+      "code": 59144,
+      "from": 59144,
+      "uid": "46cacfc5030a225f338323a3538a18e8",
+      "css": "th-large",
+      "orig_css": "th-large",
+      "orig_code": 59144,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "tag",
+        "price",
+        "offer"
+      ],
+      "code": 59148,
+      "from": 59148,
+      "uid": "e6ad31134a018fdeb64efe72d39edd65",
+      "css": "tag",
+      "orig_css": "tag",
+      "orig_code": 59148,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "editor",
+        "list"
+      ],
+      "code": 59266,
+      "from": 59266,
+      "uid": "cf1d7ee3d5c367a5c5a3cc9e77acec68",
+      "css": "list",
+      "orig_css": "list",
+      "orig_code": 59266,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "twitter"
+      ],
+      "code": 62211,
+      "from": 62211,
+      "uid": "a4765de460cc6485b1ca5b36222f41d5",
+      "css": "twitter-bird",
+      "orig_css": "twitter-bird",
+      "orig_code": 62211,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "profile",
+        "contact",
+        "user"
+      ],
+      "code": 128100,
+      "from": 128100,
+      "uid": "fd3128bf109153952b1b775ea574504b",
+      "css": "user",
+      "orig_css": "user",
+      "orig_code": 128100,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "search",
+        "find"
+      ],
+      "code": 128269,
+      "from": 128269,
+      "uid": "221947bea81f49a11b863c686a7bd235",
+      "css": "search",
+      "orig_css": "search",
+      "orig_code": 128269,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "link",
+        "url",
+        "address"
+      ],
+      "code": 128279,
+      "from": 128279,
+      "uid": "3c4a596e8ee3584c4c9e7002371db19f",
+      "css": "link",
+      "orig_css": "link",
+      "orig_code": 128279,
+      "src": "websymbols"
+    }
+  ]
+}
