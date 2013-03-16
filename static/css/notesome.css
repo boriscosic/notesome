@@ -1,11 +1,25 @@
 body { font-family: 'Open Sans', sans-serif; color: #393939; font-size: 16px; padding: 0; }
 img { max-width: 100%; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Arial, sans-serif; letter-spacing: 0; }
+[class^="icon-"], [class*=" icon-"] { background: none; }
 header { position: fixed; background-color: #ffffff; width: 100%; z-index: 1000; background-color: #2980B9; }
-header a { float:left; border-left:solid 1px rgba(52,152,219,0.5); color: #fff; font-size: 14px; text-transform: uppercase; font-family: 'Open Sans', sans-serif; padding: 14px 20px; display: block; width: 100px; }
-header a.divider, header a.divider:hover { background-color: transparent; height: 48px; width: 1px; border-right: solid 1px rgba(52,73,94,0.2); padding: 0; border-left:none; }
+header a, header div.dropdown { float:left; border-left:solid 1px rgba(52,152,219,0.5); color: #fff; font-size: 14px; text-transform: uppercase; font-family: 'Open Sans', sans-serif; padding: 14px 20px; display: block; width: 100px; }
+header div.dropdown { padding: 0; border: none; width: 160px; }
+header a.divider, header a.divider:hover { background-color: transparent; height: 48px; width: 0.1px; border-right: solid 1px rgba(52,73,94,0.2); padding: 0; border-left:none; }
+header a.divider.last { border-left: solid 1px rgba(52,73,94,0.2); border-right:solid 1px rgba(52,152,219,0.5); width: 0.1px;  }
+header a.categories { width: 125px; }
+header a.help { width: 20px; }
+header a.right { float: right; }
 header a i { padding-top: 2px; }
 header a:hover { background-color: #fff; color:#2980B9; text-decoration: none; }
+
+
+header div.dropdown ul { display: none; position: absolute; background-color: #fff; list-style: none; width: 200px; margin: 48px 0 0 0px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.28) }
+header div.dropdown ul a { color: #2980B9; border:none; padding: 10px 0; width: 88%; padding-left: 12%; }
+header div.dropdown ul a:hover { background-color: #2980B9; color: #fff; }
+header div.dropdown:hover a.categories { background-color: #fff; color: #2980B9; }
+header div.dropdown:hover ul { display: block; }
+
 
 #list { margin-top: 60px; }
 .container { width: 100%; }

@@ -67,6 +67,19 @@
     },
     {
       "search": [
+        "help",
+        "question"
+      ],
+      "code": 10067,
+      "from": 10067,
+      "uid": "3sl64gd9y68dl54i2g4vo3u57osdabft",
+      "css": "help",
+      "orig_css": "help",
+      "orig_code": 10067,
+      "src": "typicons"
+    },
+    {
+      "search": [
         "photo"
       ],
       "code": 57443,
@@ -116,6 +129,19 @@
       "css": "list",
       "orig_css": "list",
       "orig_code": 59266,
+      "src": "websymbols"
+    },
+    {
+      "search": [
+        "arrow",
+        "down"
+      ],
+      "code": 59303,
+      "from": 59303,
+      "uid": "35674c31693db324f2fd6a48f1079263",
+      "css": "down-micro",
+      "orig_css": "down-micro",
+      "orig_code": 59303,
       "src": "websymbols"
     },
     {
