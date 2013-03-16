@@ -37,6 +37,7 @@ var Notesome = {
                     if (containerWidth < min_width) {
                         box_width = containerWidth;
                     }
+
                     $('.box').width(box_width);
                     if((box_width*2)+12 < $(window).width()) {
                        $('.box.resize').width((box_width*2)+12);
@@ -99,7 +100,13 @@ var Notesome = {
 
             $box.addClass('resize');
             $box.find('.description').show();
-            $(window).trigger('resize');
+
+            $box.animate({
+                width: 578
+            }, 100, function(){
+                $container.masonry();
+            });
+
             
             self.last_box_clicked = $box;
         });
