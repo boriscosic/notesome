@@ -2,6 +2,7 @@ var Notesome = {
     last_box_clicked: null,
     init: function() {
         this.initMasonry();
+        this.toggleDisplay();
     },
 
     validateImages: function() {
@@ -111,6 +112,22 @@ var Notesome = {
             self.last_box_clicked = $box;
         });
 
+    },
+
+    toggleDisplay: function() {
+        $('a.toggle').click(function(e) {
+            $icon = $(this).find('i').first();
+            e.preventDefault();
+            if($icon.hasClass('icon-th-large')) {
+                $icon.attr('class', 'icon-th');
+            }
+            else if($icon.hasClass('icon-th')) {
+                $icon.attr('class', 'icon-th-list');
+            }
+            else if($icon.hasClass('icon-th-list')) {
+                $icon.attr('class', 'icon-th-large');
+            }
+        });
     }
 };
 

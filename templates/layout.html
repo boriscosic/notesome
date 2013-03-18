@@ -12,34 +12,15 @@ $def with (content)
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/static/css/notesome.css" rel="stylesheet">
     <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/static/css/fontello.css">
     <link rel="stylesheet" href="/static/css/animation.css">
     <!--[if IE 7]><link rel="stylesheet" href="/static/css/fontello-ie7.css"><![endif]-->
+    <link href="/static/css/notesome.css" rel="stylesheet">
+    
 </head>
-
-    <!-- Button to trigger modal -->
-<!--
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
-
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
-</div>
--->
-
     <body>
         <header>
             <div class="container clearfix">
@@ -65,8 +46,11 @@ $def with (content)
                     </ul>
                 </div>
                 <a class="divider"></a>
-                <a href="/" class="help"><i class="icon-help"></i></a>
+                <a href="#" class="toggle help"><i class="icon-th-large"></i></a>
+                <a class="divider"></a>
+                <a href="#helpModal" role="button" class="help" data-toggle="modal"><i class="icon-help"></i></a>
                 <a class="divider last"></a>
+                
 
                 <a class="divider right last"></a>
                 <a href="#" class="right help"><i class="icon-user"></i></a>
@@ -76,22 +60,39 @@ $def with (content)
             </div>
         </header>
         <div class="container">
-            
-
-            <!--
-            <div id="navbar" class="container visible-desktop">
-                <div class="nav-collapse">
-                    <ul id="nav" class="nav">
-                      
-                    </ul>
-                </div>
-            </div>
-            -->
             <div id="list">
                 <div id="content">$:content</div>
             </div>
             <div id="page-nav"><a href="/reader/2"></a></div>
 
+        </div>
+
+        <div id="modals">
+            <div id="helpModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">notesome ...</h3>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        ... <strong>is a free, fast, no-nonsense RSS aggregator.</strong><br />
+                        ... supports custom display styles.<br />
+                        ... allows unlimited feeds.<br />
+                        ... support importing from Google Reader.<br />
+                        ... works on phone, tablet and desktop without additional apps.<br />
+                        ... supports RSS 1.0 through RSS 2.0 and Atom feeds. <br />
+                        ... quickly loads story previews.<br />
+                        ... is simple to use.<br />
+                    </p>
+                    <p>
+                        <a href="#">Let's try this</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                    <button class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
 
     <script src="/static/js/libs/jquery.js"></script>
